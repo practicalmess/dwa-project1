@@ -1,1 +1,52 @@
-/*CSS goes here*/
+body {
+	background-color: #48BD33;
+	font-family: Veranda, sans-serif;
+}
+
+#main {
+	background-color: #fff;
+	padding: 1em;
+	width: 60%;
+	float: right;
+}
+
+h1 {
+	color: #fff;
+	text-align: center;
+}
+
+img {
+	width: 33%;
+	max-width: 400px;
+	height: auto;
+	float: left;
+	padding: 0 1%;
+}
+
+ul#project-links {
+	padding:0;
+}
+
+ul > li {
+	font-weight: bold;
+	list-style: none;
+	font-size: 1.3em;
+}
+
+ul > li > ul li {
+	font-weight: normal;
+	font-size: .8em;
+}
+
+@media screen and (max-width: 672px) {
+	#main {
+		float:none;
+		width: 94%;
+	}
+	img {
+		float:none;
+		width: 50%;
+		display: block;
+		margin: .5em auto;
+	}
+}
